@@ -13,7 +13,7 @@ LIST_CATEGORIES: list[str] = ["compressor", "regulation", "maintenance"]
 if __name__ == "__main__":
     time_start = time.time()
 
-    query = "Que peut-tu me dire sur les compresseurs à vis ?"
+    query = "Sur les compresseur à vis, c'est quoi le VI variable ? détails moi le max que tu peux"
 
     categories_estimation = estimate_category(query, LIST_CATEGORIES)
 
