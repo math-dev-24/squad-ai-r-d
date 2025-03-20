@@ -1,0 +1,6 @@
+sources/
+vectors/
+.env
+__pycache__/
+.venv/
+.idea/
